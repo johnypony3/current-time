@@ -13,8 +13,6 @@ bash 'commit-pass' do
   user 'root'
   code <<-EOH
     sudo su edward
-    pass list
-    pass bingo
     pass git push
     EOH
 end
