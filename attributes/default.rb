@@ -1,4 +1,5 @@
 default[:homebrew][:homebrew_user] = 'edward'
+default[:user][:home] = '/Users/edward'
 
 default[:brew_packages] = {
  "jmeter" => {'version' => '5.1.1', 'action' => :install},
