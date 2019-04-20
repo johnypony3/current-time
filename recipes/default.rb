@@ -10,6 +10,7 @@ node['brew_packages'].each do |package,properties|
 end
 
 bash 'commit-pass' do
+  action :nothing
   user 'root'
   code <<-EOH
     sudo su edward
